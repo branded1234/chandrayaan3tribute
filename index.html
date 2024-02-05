@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ISRO-Chandrayaan 3</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <section id="home-section">
+      <div class="home-container">
+        <div class="navbar">
+          <img src="Images/logo_ch3.png" alt="logo" />
+          <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+          <div class="nav-heading">
+            <label for="menu-toggle" class="menu-icon">&#9776;</label>
+            <div class="nav-links">
+              <a href="#gallery-section">Gallery</a>
+              <a href="#timeline-section">Timeline</a>
+              <a href="#fact-section">Key Facts</a>
+              <a href="#footer-id">Contact</a>
+              <button class="btn">
+                <a href="./nowhere.html">MORE INFO</a>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="hero-container">
+          <img src="Images/hero-img.jpeg" alt="" />
+          <h1>
+            CHANDRAYAAN 3
+            <br />
+            <span class="change-text"></span>
+          </h1>
+        </div>
+      </div>
+    </section>
+    <section id="gallery-section">
+      <div class="gallery">
+        <h2>Gallery</h2>
+        <div class="slider">
+          <div class="list">
+            <div class="item">
+              <h3>LVM3-M4 Launcher<br /><span>Mission Pre Launch</span></h3>
+              <img src="./Images/lvm3.webp" alt="" />
+            </div>
+            <div class="item">
+              <h3>LVM3-M4 Launcher<br /><span>Mission Post Launch</span></h3>
+              <img src="./Images/post-launch.webp" alt="" />
+            </div>
+            <div class="item">
+              <h3>Chandrayaan-3<br /><span>Journey in Sketches</span></h3>
+              <img src="./Images/journey.png" alt="" />
+            </div>
+            <div class="item">
+              <h3>Chandrayaan-3<br /><span>Post Landing</span></h3>
+              <img src="./Images/landed.jpg" alt="" />
+            </div>
+            <div class="item">
+              <h3>Chandrayaan-3<br /><span>Sending Moon Image</span></h3>
+              <img src="./Images/moon_surface.jpg" alt="" />
+            </div>
+          </div>
+          <!-- <div class="buttons">
+              <button id="prev"><</button>
+              <button id="next">></button>
+          </div> -->
+          <ul class="dots">
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="timeline-section">
+      <div class="timeline">
+        <h2>Timeline</h2>
+        <table class="content-table">
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Time</th>
+              <th>Message</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>July 06, 2023</td>
+              <td>[00:00:00]</td>
+              <td>
+                The launch is scheduled for July 14, 2023, at 14:35 Hrs. IST
+                from the Second Launch Pad, SDSC-SHAR, Sriharikota.
+              </td>
+            </tr>
+            <tr>
+              <td>July 07, 2023</td>
+              <td>[00:00:00]</td>
+              <td>
+                Vehicle electrical tests completed. Citizens are invited to
+                witness the launch from the Launch View Gallery at SDSC-SHAR,
+                Sriharikota.
+              </td>
+            </tr>
+            <tr>
+              <td>July 14, 2023</td>
+              <td>[00:00:00]</td>
+              <td>
+                LVM3 M4 vehicle successfully launched Chandrayaan-3 into orbit.
+                Chandrayaan-3, in its precise orbit, has begun its journey to
+                the Moon. Health of the Spacecraft is normal.
+              </td>
+            </tr>
+            <tr>
+              <td>July 15, 2023</td>
+              <td>[00:00:00]</td>
+              <td>
+                The first orbit-raising maneuver (Earthbound firing-1) is
+                successfully performed at ISTRAC/ISRO, Bengaluru. Spacecraft is
+                now in 41762 km x 173 km orbit.
+              </td>
+            </tr>
+            <tr>
+              <td>July 17, 2023</td>
+              <td>[00:00:00]</td>
+              <td>
+                The second orbit-raising maneuver performed. The spacecraft is
+                now in 41603 km x 226 km orbit.
+              </td>
+            </tr>
+            <tr>
+              <td>July 22, 2023</td>
+              <td>[00:00:00]</td>
+              <td>
+                The fourth orbit-raising maneuver (Earth-bound perigee firing)
+                is completed. The spacecraft is now in a 71351 km x 233 km
+                orbit.
+              </td>
+            </tr>
+            <tr>
+              <td>July 25, 2023</td>
+              <td>[00:00:00]</td>
+              <td>
+                Orbit-raising maneuver performed on July 25, 2023. Next firing
+                (TransLunar Injection), is planned for August 1, 2023.
+              </td>
+            </tr>
+            <tr>
+              <td>August 01, 2023</td>
+              <td>[00:00:00]</td>
+              <td>
+                The spacecraft is inserted into the translunar orbit. The orbit
+                achieved is 288 km x 369328 km. Lunar-Orbit Insertion (LOI) is
+                planned for Aug 5, 2023.
+              </td>
+            </tr>
+            <tr>
+              <td>August 05, 2023</td>
+              <td>[00:00:00]</td>
+              <td>
+                Chandrayaan-3 is successfully inserted into the lunar orbit. The
+                orbit achieved is 164 km x 18074 km, as intended.
+              </td>
+            </tr>
+            <tr>
+              <td>August 06, 2023</td>
+              <td>[00:00:00]</td>
+              <td>
+                LBN#2 is successfully completed. The spacecarft is in 170 km x
+                4313 km orbit around the moon.
+              </td>
+            </tr>
+            <tr>
+              <td>August 17, 2023</td>
+              <td>[00:00:00]</td>
+              <td>
+                Lander Module is successfully separated from the Propulsion
+                Module. Deboosting planned for August 18, 2023
+              </td>
+            </tr>
+            <tr>
+              <td>August 23, 2023</td>
+              <td>[00:00:00]</td>
+              <td style="background-color: #00ccff">
+                'I reached my destination and you too!': Chandrayaan-3
+                Chandrayaan-3 has successfully soft-landed on the moon.
+                Congratulations, India!
+              </td>
+            </tr>
+            <tr>
+              <td>August 24, 2023</td>
+              <td>[00:00:00]</td>
+              <td>
+                Chandrayaan-3 ROVER: Made in India. Made for the MOON! The Ch-3
+                Rover ramped down from the Lander and India took a walk on the
+                moon ! More updates soon.
+              </td>
+            </tr>
+            <tr>
+              <td>August 27, 2023</td>
+              <td>[00:00:00]</td>
+              <td>
+                The first observations from the ChaSTE payload onboard Vikram
+                Lander.
+              </td>
+            </tr>
+            <tr>
+              <td>September 04, 2023</td>
+              <td>[00:00:00]</td>
+              <td>
+                The lander and rover are in sleep mode. Awaiting their awakening
+                around September 22, 2023.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <section id="fact-section">
+      <div class="fact">
+        <h2>Key Facts</h2>
+        <div class="card1">
+          <div class="material">
+            <div class="dna"></div>
+            <div class="dna"></div>
+            <div class="dna"></div>
+            <div class="dna"></div>
+            <div class="dna"></div>
+            <div class="dna"></div>
+            <div class="dna"></div>
+            <div class="dna"></div>
+            <div class="dna"></div>
+            <div class="dna"></div>
+            <div class="dna"></div>
+            <div class="dna"></div>
+            <div class="dna"></div>
+            <div class="dna"></div>
+            <div class="dna"></div>
+            <div class="dna"></div>
+          </div>
+          <div class="content1">
+            <p>
+              <span
+                >First Indian mission to attempt a soft landing on the Moon's
+                south pole:</span
+              >
+              The south pole is a region of immense scientific interest due to
+              the presence of water ice in permanently shadowed craters. No
+              country has ever successfully landed on this area before.
+              Chandrayaan 3 aims to break new ground and gather valuable data
+              about the Moon's south polar region.
+            </p>
+          </div>
+        </div>
+        <div class="card2">
+          <div class="content2">
+            <p>
+              <span>Equipped with the Pragyan rover:</span> The Pragyan rover
+              will be deployed from the lander to explore the lunar surface. It
+              is carrying seven scientific instruments to study the Moon's
+              composition, search for water ice, and measure the local
+              atmosphere. The rover is expected to operate for one lunar day,
+              which is equivalent to about 14 Earth days.
+            </p>
+          </div>
+          <div class="containerSquare">
+            <div class="frame"></div>
+            <div class="frame"></div>
+            <div class="frame"></div>
+            <div class="frame"></div>
+            <div class="frame"></div>
+          </div>
+        </div>
+        <div class="card3">
+          <div class="containerSquare">
+            <div class="frame" style="border-radius: 50%"></div>
+            <div class="frame" style="border-radius: 50%"></div>
+            <div class="frame" style="border-radius: 50%"></div>
+            <div class="frame" style="border-radius: 50%"></div>
+            <div class="frame" style="border-radius: 50%"></div>
+          </div>
+          <div class="content3">
+            <p>
+              <span>Modified and improved version of Chandrayaan 2:</span>
+              Chandrayaan 3 builds upon the lessons learned from its
+              predecessor, Chandrayaan 2, which experienced a hard landing on
+              the lunar surface. The lander has been made heavier and equipped
+              with more fuel for a more stable descent. Additionally, the
+              software has been refined to improve landing accuracy.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer" id="footer-id">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>chandrayaan 3</h4>
+            <ul>
+              <li><a href="#">planning</a></li>
+              <li><a href="#">story</a></li>
+              <li><a href="#">execution</a></li>
+              <li><a href="#">achievement</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>achievements</h4>
+            <ul>
+              <li><a href="#">Pragyan's 14-Day Ride</a></li>
+              <li><a href="#">South Pole Touchdown</a></li>
+              <li><a href="#">Hidden Water Hunt</a></li>
+              <li><a href="#">Smarter & Stronger</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Thanking</h4>
+            <ul>
+              <li><a href="#">Mr. S. Somanath</a></li>
+              <li><a href="#">Mr. S. Mohanakumar</a></li>
+              <li><a href="#">Mr. G. Narayanan</a></li>
+              <li><a href="#">Mr. P. Veeramuthuvel</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>follow us</h4>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
